@@ -1,0 +1,49 @@
+.visible {
+	transform: translateY(0);
+	animation: none; }
+
+@media (min-width: 768px) {
+.mt30 {
+	margin-top: 30px;
+}
+.mr30 {
+	margin-right: 30px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+.ml30 {
+	margin-left: 30px;
+}
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 30px;
+  padding-left: 10px !important;
+}
+.rating span.star {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  padding: 0 !important;
+}
+.rating span.star:hover {
+  cursor: pointer;
+}
+.rating span.star:before {
+  content: "\f006";
+  padding-right: 5px;
+  color: #777777;
+}
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
+  content: "\f005";
+  color: #e3cf7a;
+}
+.rating span.star.rated:before {
+	content: "\f005";
+  	color: #e3cf7a;
+}

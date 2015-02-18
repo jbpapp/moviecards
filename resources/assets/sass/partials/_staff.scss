@@ -1,0 +1,48 @@
+.thumbnail {
+
+	.staff-cover {
+		width: 100%;
+		height: 300px;
+	}
+
+	.caption h3 {
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+
+		&:after {
+			content: '';
+			display: block;
+			margin: 10px auto 0;
+			height: 1px;
+			width: 25%;
+			border-bottom: 1px solid #d7d7d7; }
+		}
+		& span.as {
+			font: italic 18px Georgia, serif;
+			text-transform: lowercase;
+			color: #777;
+		}
+
+	.rz {
+		background: url('../images/rz.jpg') top center no-repeat;
+		background-size: cover;
+	}
+	.bg {	
+		background: url('../images/bg.jpg') top center no-repeat;
+		background-size: cover;
+	}
+	.mjf {
+		background: url('../images/mjf.jpg') top center no-repeat;
+		background-size: cover;		
+	}
+	.cl {
+		background: url('../images/cl.jpg') top center no-repeat;
+		background-size: cover;		
+	}
+	.lt {
+		background: url('../images/lt.jpg') top center no-repeat;
+		background-size: cover;			
+	}
+
+}

@@ -1,0 +1,25 @@
+html, body {
+	background: #f7f7f7;
+	color: #222;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+
+	&:after {
+		content: '';
+		display: block;
+		margin: 10px auto 30px;
+		height: 1px;
+		width: 25%;
+		border-bottom: 1px solid #d7d7d7; }
+	
+	& a:hover {
+		text-decoration: none;
+	}
+}
